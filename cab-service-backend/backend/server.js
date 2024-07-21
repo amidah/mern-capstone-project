@@ -19,6 +19,6 @@ const bookingRoutes = require('./routes/bookings');
 app.use('/bookings', bookingRoutes);
 
 app.listen(PORT, () => {
-    console.log('Server is running on port ${PORT}');
+    console.log(`Server is running on port ${PORT}`);
 });
 
